@@ -3,10 +3,10 @@ const path = require('path');
 module.exports = {
     entry: './src/Lib.js',
     output: {
-        path: path.resolve(__dirname, './dist'),
-        filename: 'lib.js',
+        path: path.resolve(__dirname, './'),
+        filename: 'index.js',
         library: 'lib',
-        // libraryTarget: 'this',
+        libraryTarget: 'umd',
     },
     module: {
         rules: [{

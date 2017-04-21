@@ -3,3 +3,5 @@ class Helper {
     console.log('helper:doSth');
   }
 }
+
+export default Helper;
